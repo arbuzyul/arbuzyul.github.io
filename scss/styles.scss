@@ -10,8 +10,15 @@ body {
 
 
 h1 {
+    font-family: 'Playfair Display', serif;
     text-align: center;
     display: block;
+    color: dimgray;
+}
+
+h5 {
+    background-color: black;
+    color: white;
 }
 
 .personalimage {
@@ -25,37 +32,24 @@ h1 {
 
 
 .aboutpara {
-    font-family: 'Playfair Display', serif;
-    font-size: 150%;
+ 
+    font-size: 20px;
     margin: auto;
     text-align: center;
-    width: 750px;
-    padding: 15px;
+    width: 500px;
+ 
+    padding-top: 20px;
     line-height: 2;
-
  }
 
-.bookcontainer {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    width: 700px;
-    align-self: center;
-    margin: 0 auto;
-     
+.movieCards{
+    text-align: center;
 }
 
-
-
-.movietext, h3 {
-    color: white;
-    @media (max-width: 442px) {
-        font-size: 13px;
-    }
+.movietext{
+    text-align: left;
+    color: white; 
 }
-
-
-
 
 //** Navigation Bar
 
