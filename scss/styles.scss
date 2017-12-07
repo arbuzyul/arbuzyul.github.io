@@ -1,6 +1,8 @@
 @import "normalize";
 @import "uikit-rtl.min";
 @import "uikit.min";
+@import "animate";
+@import "morphext";
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 body {
@@ -43,7 +45,7 @@ h5 {
  }
 
 .movieCards{
-    text-align: center;
+    text-align:center;
 }
 
 .movietext{
@@ -51,6 +53,12 @@ h5 {
     color: white; 
 }
 
+.nameHeader{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    text-align: center;
+    color: dimgray;
+}
 //** Navigation Bar
 
 .topnav {
