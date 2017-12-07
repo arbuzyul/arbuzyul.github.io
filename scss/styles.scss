@@ -11,6 +11,7 @@ body {
 }
 
 
+
 h1 {
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -23,6 +24,7 @@ h5 {
     color: white;
 }
 
+
 .personalimage {
     border-radius: 50%;
     width: 120px;
@@ -32,10 +34,9 @@ h5 {
 }
 
 
-
 .aboutpara {
  
-    font-size: 20px;
+    font-size: 15px;
     margin: auto;
     text-align: center;
     width: 500px;
@@ -43,6 +44,8 @@ h5 {
     padding-top: 20px;
     line-height: 2;
  }
+
+//** Movie Cards
 
 .movieCards{
     text-align:center;
@@ -59,7 +62,19 @@ h5 {
     text-align: center;
     color: dimgray;
 }
+
+
+//** Favorite Books
+
+#favBook {
+    
+    
+}
+
+
 //** Navigation Bar
+
+
 
 .topnav {
     background-color: black;
