@@ -7,6 +7,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 /* line 12, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/_normalize.scss */
 html {
   line-height: 1.15;
@@ -16253,34 +16254,34 @@ iframe.uk-cover {
   h2, h3 {
     page-break-after: avoid; } }
 
-/* line 5, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 6, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 body {
   background: #EEEEEE; }
 
-/* line 11, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 12, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 h1 {
   text-align: center;
   display: block; }
 
-/* line 16, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 17, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .personalimage {
   border-radius: 50%;
-  width: 200px;
+  width: 120px;
   display: block;
   margin: auto;
   border: 4px solid white; }
 
 /* line 27, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .aboutpara {
-  width: 350px;
-  text-align: center;
-  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 150%;
   margin: auto;
+  text-align: center;
+  width: 750px;
   padding: 15px;
-  background: white;
-  border-radius: 15px; }
+  line-height: 2; }
 
-/* line 36, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 38, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .bookcontainer {
   display: flex;
   justify-content: center;
@@ -16289,19 +16290,21 @@ h1 {
   align-self: center;
   margin: 0 auto; }
 
-/* line 47, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
-#favbook {
-  display: block;
-  margin: auto; }
+/* line 50, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+.movietext, h3 {
+  color: white; }
+  @media (max-width: 442px) {
+    /* line 50, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+    .movietext, h3 {
+      font-size: 13px; } }
 
-/* line 52, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 62, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .topnav {
   background-color: black;
   overflow: hidden;
   margin-bottom: 20px; }
 
-/* Style the links inside the navigation bar */
-/* line 59, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 69, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .topnav a {
   float: right;
   color: #f2f2f2;
@@ -16310,14 +16313,12 @@ h1 {
   text-decoration: none;
   font-size: 13px; }
 
-/* Change the color of links on hover */
-/* line 69, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 79, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .topnav a:hover {
   background-color: powderblue;
   color: black; }
 
-/* Add a color to the active/current link */
-/* line 75, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 85, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .topnav a.active {
   background-color: dimgrey;
   color: white; }
