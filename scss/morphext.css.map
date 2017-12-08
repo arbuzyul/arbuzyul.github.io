@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "morphext.css",
+  "sources": [
+    "morphext.scss"
+  ],
+  "mappings": "AAAA,kFAAkF;;AAClF,AAAY,SAAH,GAAG,SAAS,CAAC;EACpB,OAAO,EAAE,YAAa,GAAG;;AAE3B,wCAAwC",
+  "names": []
+}
