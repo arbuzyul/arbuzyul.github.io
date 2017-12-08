@@ -5,12 +5,14 @@
 @import "morphext";
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
+
 body {
     background: #EEEEEE;
 
 }
 
 
+//** H Style
 
 h1 {
     font-family: 'Playfair Display', serif;
@@ -19,11 +21,14 @@ h1 {
     color: dimgray;
 }
 
+
 h5 {
     background-color: black;
     color: white;
 }
 
+
+//** Personal Image
 
 .personalimage {
     border-radius: 50%;
@@ -34,16 +39,19 @@ h5 {
 }
 
 
+//** About Paragraph
+
+
 .aboutpara {
  
     font-size: 15px;
     margin: auto;
     text-align: center;
     width: 500px;
- 
     padding-top: 20px;
     line-height: 2;
  }
+
 
 //** Movie Cards
 
@@ -51,10 +59,12 @@ h5 {
     text-align:center;
 }
 
+
 .movietext{
     text-align: left;
     color: white; 
 }
+
 
 .nameHeader{
     font-family: 'Playfair Display', serif;
@@ -66,15 +76,13 @@ h5 {
 
 //** Favorite Books
 
-#favBook {
-    
+#bookGroup {
+    text-align: center;
     
 }
 
 
 //** Navigation Bar
-
-
 
 .topnav {
     background-color: black;
@@ -102,4 +110,13 @@ h5 {
 .topnav a.active {
     background-color: dimgrey;
     color: white;
+}
+
+
+footer {
+    background: black;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
 }

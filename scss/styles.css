@@ -17381,23 +17381,23 @@ iframe.uk-cover {
   display: inline-block; }
 
 /*# sourceMappingURL=morphext.css.map */
-/* line 8, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 9, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 body {
   background: #EEEEEE; }
 
-/* line 15, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 17, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 h1 {
   font-family: 'Playfair Display', serif;
   text-align: center;
   display: block;
   color: dimgray; }
 
-/* line 22, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 25, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 h5 {
   background-color: black;
   color: white; }
 
-/* line 28, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 33, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .personalimage {
   border-radius: 50%;
   width: 120px;
@@ -17405,7 +17405,7 @@ h5 {
   margin: auto;
   border: 4px solid white; }
 
-/* line 37, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 45, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .aboutpara {
   font-size: 15px;
   margin: auto;
@@ -17414,16 +17414,16 @@ h5 {
   padding-top: 20px;
   line-height: 2; }
 
-/* line 50, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 58, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .movieCards {
   text-align: center; }
 
-/* line 54, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 63, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .movietext {
   text-align: left;
   color: white; }
 
-/* line 59, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 69, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .nameHeader {
   font-family: 'Playfair Display', serif;
   font-size: 40px;
@@ -17431,12 +17431,16 @@ h5 {
   color: dimgray; }
 
 /* line 79, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+#bookGroup {
+  text-align: center; }
+
+/* line 87, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .topnav {
   background-color: black;
   overflow: hidden;
   margin-bottom: 20px; }
 
-/* line 86, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 94, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .topnav a {
   float: right;
   color: #f2f2f2;
@@ -17445,14 +17449,22 @@ h5 {
   text-decoration: none;
   font-size: 13px; }
 
-/* line 96, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 104, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .topnav a:hover {
   background-color: powderblue;
   color: black; }
 
-/* line 102, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+/* line 110, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
 .topnav a.active {
   background-color: dimgrey;
   color: white; }
+
+/* line 116, C:/Users/User/Documents/GitHub/arbuzyul.github.io/scss/styles.scss */
+footer {
+  background: black;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px; }
 
 /*# sourceMappingURL=styles.css.map */
